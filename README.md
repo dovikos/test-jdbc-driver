@@ -13,10 +13,10 @@ This project demonstrates the test with **ojdbc8**.
 
 Example testing connection to an Oracle database :  
 
-Windows
+Windows  
 `java -cp ".;.\ojdbc8.jar" TestJDBCDriver jdbc:oracle:thin:@localhost:1521/mydb oracle.driver.OracleDriver scott tiger`
 
-Linux
+Linux  
 `java -cp ".:./ojdbc8.jar" TestJDBCDriver jdbc:oracle:thin:@localhost:1521/mydb oracle.driver.OracleDriver scott tiger`
 
     URL = jdbc:oracle:thin:@localhost:1521/mydb

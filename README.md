@@ -11,9 +11,13 @@ Utilitary to test JDBC driver
 ## Test a driver
 This project demonstrates the test with **ojdbc8**.
 
-Example testing connection to an Oracle database :
+Example testing connection to an Oracle database :  
 
+Windows
 `java -cp ".;.\ojdbc8.jar" TestJDBCDriver jdbc:oracle:thin:@localhost:1521/mydb oracle.driver.OracleDriver scott tiger`
+
+Linux
+`java -cp ".:./ojdbc8.jar" TestJDBCDriver jdbc:oracle:thin:@localhost:1521/mydb oracle.driver.OracleDriver scott tiger`
 
     URL = jdbc:oracle:thin:@localhost:1521/mydb
     DRIVER = oracle.driver.OracleDriver
